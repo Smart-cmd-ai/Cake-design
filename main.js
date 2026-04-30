@@ -25,7 +25,7 @@ function displayData(data) {
   // Display cakes
   data.cakes.forEach(cake => {
     container.innerHTML += `
-      <img src="${cake}" alt="cake image" width="200">
+      <img src="${cakes}" alt="cake image" width="200">
     `;
   });
 
@@ -35,7 +35,7 @@ function displayData(data) {
   // Display burgers
   data.burgers.forEach(burger => {
     container.innerHTML += `
-      <img src="${burger}" alt="burger image" width="200">
+      <img src="${burgers}" alt="burger image" width="200">
     `;
   });
 
@@ -45,7 +45,7 @@ function displayData(data) {
   // Display foods
   data.foods.forEach(food => {
     container.innerHTML += `
-      <img src="${food}" alt="food image" width="200">
+      <img src="${foods}" alt="food image" width="200">
     `;
   });
 
@@ -55,7 +55,7 @@ function displayData(data) {
   // Display snacks
   data.snacks.forEach(snack => {
     container.innerHTML += `
-      <img src="${snack}" alt="snack image" width="200">
+      <img src="${snacks}" alt="snack image" width="200">
     `;
   });
 }
