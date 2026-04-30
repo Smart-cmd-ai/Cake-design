@@ -1,0 +1,28 @@
+{
+  "cakes": [
+    "/Images/cake1.jpg",
+    "/Images/cake2.jpg",
+    "/Images/cake3.jpg"
+  ],
+
+  "burgerText": "For burger we have:",
+
+  "burgers": [
+    "/Images/burger1.jpg",
+    "/Images/burger2.jpg"
+  ],
+
+  "foodText": "For culinary dishes we have:",
+
+  "foods": [
+    "/Images/food1.jpg",
+    "/Images/food2.jpg"
+  ],
+
+  "snacksText": "For snacks we have:",
+
+  "snacks": [
+    "/Images/snacks1.jpg",
+    "/Images/snacks2.jpg"
+  ]
+}
