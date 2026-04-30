@@ -1,6 +1,6 @@
 const url = "data.json";
 
-async function fetchJSONData() {
+async function fetchJSONData(url) {
   try {
     const response = await fetch(url);
 
@@ -9,14 +9,15 @@ async function fetchJSONData() {
     }
 
     const data = await response.json();
+    console.log(data);
     displayData(data);
 
   } catch (error) {
-    console.log(error);
+    console.log("error");
   }
 }
 
-fetchJSONData();
+fetchJSONData(url);
 
 function displayData(data) {
   const container = document.getElementById("cakes");
