@@ -25,7 +25,7 @@ function displayData(data) {
   // Display cakes
   data.cakes.forEach(cake => {
     container.innerHTML += `
-      <img src="${cake}" alt="cake image" width="200">
+      <img src="${data.cakes}" alt="cake image" width="200">
     `;
   });
 
